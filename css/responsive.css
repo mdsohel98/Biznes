@@ -1,0 +1,262 @@
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media(min-width:320px) and (max-width: 575.98px) {
+    #footerTop-part .row{
+        flex-wrap: nowrap;
+    }
+    #menu-part {
+        padding: 15px 0;
+        background: #fff;
+    }
+    #banner-part .banner .ovarlay {
+        padding-top: 60px;
+        padding-bottom: 235px;
+    }
+    .banner .ovarlay .banner-text h1 {
+        font-size: 49px;
+    }
+    .banner .ovarlay .banner-text p {
+        width:auto;
+    }
+    .bnr-btn{
+        padding: 10px 16px;
+        margin-top: -10px;
+    }
+    ol.carousel-indicators {
+        bottom: 170px;
+        left: 10%;
+    }
+    nav ul li a {
+        display: inline-block !important;
+    }
+    .search-box{
+        text-align: right;
+    }
+    /* about part start */
+    .about-content {
+        left: 0;
+        top: 40%;
+    }
+    .about-content .abt-text p{
+        width: auto;
+        text-align: justify;
+    }
+    /* recent work start */
+    #RecentWork_part {
+        margin-top: 0px;
+    }
+    .recentWrok-nav ul li{
+        font-size: 11px;
+        padding: 0 3px;
+    }
+    .recentWrok-nav {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    /* our tabs part start */
+    #ourTab-part .our-nav-item li a {
+        font-size: 10px;
+        padding: 15px 1px;
+    }
+    .text-area h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .out-tabs {
+        padding-top: 26px;
+        padding-bottom: 50px;
+        background: #f7f7f7;
+    }
+    .text-area p{
+        width: auto;
+        text-align: justify;
+    }
+    /* big banner part start */
+    #big-banner .banner-content .big-button a{
+
+    }
+    #big-banner .banner-content .big-button a {
+        background: #8bc34a;
+        font-family: 'Poppins', sans-serif;
+        font-size: 4px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 12px 20px;
+        border-radius: 50px;
+        border: 0;
+    }
+    /* logo slide part start */
+    #logoSlide-part {
+        margin-top:0px;
+    }
+    #logoSlide-part .logo-slide {
+        background: #fafafa;
+        padding: 25px 0;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #menu-part {
+        padding: 15px 0;
+        background: #fff;
+    }
+    #banner-part .banner .ovarlay {
+        padding-top: 60px;
+        padding-bottom: 235px;
+    }
+    .banner .ovarlay .banner-text h1 {
+        font-size: 49px;
+    }
+    .banner .ovarlay .banner-text p {
+        width:auto;
+    }
+    .bnr-btn{
+        padding: 10px 16px;
+        margin-top: -10px;
+    }
+    ol.carousel-indicators {
+        bottom: 170px;
+        left: 10%;
+    }
+    nav ul li a {
+        display: inline-block !important;
+    }
+    .search-box{
+        text-align: right;
+    }
+    /* about part start */
+    .about-content {
+        left: 0;
+        top: 40%;
+    }
+    .about-content .abt-text p{
+        width: auto;
+        text-align: justify;
+    }
+    /* recent work start */
+    #RecentWork_part {
+        margin-top: 0px;
+    }
+    .recentWrok-nav ul li{
+        font-size: 11px;
+        padding: 0 3px;
+    }
+    .recentWrok-nav {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    /* our tabs part start */
+    #ourTab-part .our-nav-item li a {
+        font-size: 10px;
+        padding: 15px 1px;
+    }
+    .text-area h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .out-tabs {
+        padding-top: 26px;
+        padding-bottom: 50px;
+        background: #f7f7f7;
+    }
+    .text-area p{
+        width: auto;
+        text-align: justify;
+    }
+    /* big banner part start */
+    #big-banner .banner-content .big-button a{
+
+    }
+    #big-banner .banner-content .big-button a {
+        background: #8bc34a;
+        font-family: 'Poppins', sans-serif;
+        font-size: 4px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 12px 20px;
+        border-radius: 50px;
+        border: 0;
+    }
+    /* logo slide part start */
+    #logoSlide-part {
+        margin-top:0px;
+    }
+    #logoSlide-part .logo-slide {
+        background: #fafafa;
+        padding: 25px 0;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    ol.carousel-indicators {
+        bottom: 150px;
+        left: 10%;
+    }
+    #do-part {
+        margin-top: 70px;
+        padding-top: 40px;
+    }
+    #RecentWork_part {
+        margin-top: 70px;
+    }
+    #big-banner .banner-content .big-button a{
+        padding: 10px 98px;
+        font-size: 11px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #do-part .do-heding p {
+        width: 540px;
+        margin-top: 40px;
+    }
+    #RecentWork_part {
+        margin-top: 81px;
+    }
+    #do-part::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 105%;
+        top: 0;
+        left: 0;
+        background: #fafafa;
+        z-index: -1;
+    }
+    /* .social-icon {
+        background: #4caf50;
+        padding: 15px 0px;
+        position: absolute;
+        width: 100%;
+        bottom: -80px;
+        left: 0;
+        transition: .4s;
+    } */
+    .social-icon i {
+        color: #fff;
+        margin: 0 8px;
+        font-size: 17px;
+    }
+    .team-content-ovarlay .team-text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 12px;
+    }
+    
+    .social-icon {
+        padding: 10px 0px;
+    }
+
+
+    .team-content-ovarlay .team-text h2, .team-content-ovarlay .team-text span, .team-content-ovarlay .team-text p {
+        /* font-size: 14px; */
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
